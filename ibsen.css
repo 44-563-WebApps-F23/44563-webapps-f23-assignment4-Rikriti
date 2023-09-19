@@ -1,22 +1,45 @@
-.direction{
-font-family: 'Times New Roman', Times, serif;
-font-size: 15px;
-background-color: azure;
+.direction {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  background-color: azure;
 }
-.direction:hover{
-    background-color: blueviolet;
-    color: white;
+.direction:hover {
+  background-color: blueviolet;
+  color: white;
 }
-.speech{
-font-family: 'Courier New', Courier, monospace;
-font-size: 15px;
+.speech {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
-.brovik{
-color: blue;
+.brovik {
+  color: blue;
 }
-.kaia{
-color: brown;
+.kaia {
+  color: brown;
 }
-.ragnar{
-color: red;
+.ragnar {
+  color: red;
+}
+.playTable {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin:1px;
+}
+
+.playTable th {
+  text-align: center; 
+  padding: 10px;
+}
+
+.playTable td {
+  text-align: center;
+  padding: 10px;
+}
+
+.playTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.playTable tr:hover {
+  background-color: #9de3f0;
 }
