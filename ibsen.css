@@ -1,0 +1,22 @@
+.direction{
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+background-color: azure;
+}
+.direction:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.speech{
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+}
+.brovik{
+color: blue;
+}
+.kaia{
+color: brown;
+}
+.ragnar{
+color: red;
+}
