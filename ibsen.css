@@ -11,6 +11,23 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
 }
+.solness:hover {
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+  border: 2px rgb(133, 64, 64);
+}
+
+.brovik:hover{
+    box-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+    border: 2px rgb(133, 64, 64);
+}
+.kaia:hover{
+    box-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+    border: 2px rgb(133, 64, 64);
+}
+.ragnar:hover{
+    box-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+    border: 2px rgb(133, 64, 64);
+}
 .brovik {
   color: blue;
 }
@@ -20,14 +37,17 @@
 .ragnar {
   color: red;
 }
+.solness {
+  color: hotpink;
+}
 .playTable {
   border: 1px solid;
   border-collapse: collapse;
-  margin:1px;
+  margin: 1px;
 }
 
 .playTable th {
-  text-align: center; 
+  text-align: center;
   padding: 10px;
 }
 
